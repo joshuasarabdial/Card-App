@@ -1,0 +1,117 @@
+html {
+    width: 60%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    background-color: #FFFFFF;
+}
+a:link:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+    cursor: hand;
+}
+input[type=submit], button {
+    cursor: pointer;
+    cursor: hand;
+}
+@media(max-width: 900px) {
+    html {
+        font-size: 14px !important;
+        width: 80% !important;
+    }
+}
+@media(max-width: 480px) {
+    html {
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+}
+@media(max-width: 320px) {
+    html {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+}
+
+table {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+td, th {
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.pane {
+	overflow-x: scroll;
+	overflow-y: scroll;
+	max-height: 150px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 26px;
+    color: #ffffff;
+    padding: 8px;
+}
+#headerMain {
+	text-shadow: 2px 2px #333333;
+	background-color: #808080;
+	border-bottom: 3px solid #4d4d4d;
+}
+h2 {
+    font-family: Arial;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 10px;
+}
+#headerStatus {
+    text-shadow: 2px 2px #330000;
+    background-color: #ff6666;
+    border-bottom: 2px solid #ff1a1a;
+}
+#status {
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+#clear {
+	margin-top: 5px;
+}
+#headerFileLog {
+    text-shadow: 2px 2px #001133;
+    background-color: #6699ff;
+    border-bottom: 2px solid #3377ff;
+}
+#fileLog {
+    border: 1px solid black;
+}
+#upload {
+	margin-top: 5px;
+}
+#headerCardView {
+    text-shadow: 2px 2px #003300;
+    background-color: #80ff80;
+    border-bottom: 2px solid #4dff4d;
+}
+#fileList {
+	margin-bottom: 5px;
+}
+#cardView {
+    border: 1px solid black;
+}
